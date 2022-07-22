@@ -1,2 +1,2 @@
 # outerlooper-press
-Outerlooper WordPress Theme
+Outerlooper, A WordPress Child Theme
