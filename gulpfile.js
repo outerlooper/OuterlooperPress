@@ -10,8 +10,6 @@ const rename = require('gulp-rename');
 const browserSync = require('browser-sync').create();
 
 
-
-
 // exports.default = gulp.series(gulp.parallel(
 //     pgPortfolio, html, icons, images, fonts, vendor, css, cssMin, js, jsMin
 //     ), watch);
