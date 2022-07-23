@@ -8,6 +8,7 @@
 ## Install
 - Download 'OuterlooperPress' into the WordPress themes directory
 - Requires the 'Twenty Twenty One' WordPress parent theme
+- CD into the 'OuterlooperPress' folder
 - Run 'npm-install' to update packages
 - Run 'gulp' to build assets
 
