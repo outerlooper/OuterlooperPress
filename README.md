@@ -36,7 +36,7 @@
 - `fonts/` - locally hosted fonts
 - `images/` - **OuterlooperPress** theme images folder
 - `img/` - (dev) for compressing image files to be used in the theme
-  - The build compresses and distributes any image file(s) found in the `img/` directory over to the main **OuterlooperPress** theme `images/` folder ... *Handy*
+  - compresses and distributes any image file(s) located in the `img/` directory into the main **OuterlooperPress** theme `images/` folder ... *Handy*
 - `js/` - additional JavaScript outside of the core **OuterlooperPress** theme scripts
 - `sass/` - (dev) for transpiling, mapping and minfiying the **OuterlooperPress** theme SCSS to CSS
   - `./style.css`
