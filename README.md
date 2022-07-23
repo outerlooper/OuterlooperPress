@@ -7,7 +7,7 @@
 **OuterlooperPress**, a WordPress child theme.
 
 - Author: Outerlooper, Michael Cooper
-- Site: [outerlooper.com](https://www.outerlooper.com)
+- Site: [outerlooper.github.io](https://outerlooper.github.io/)
 
 ## Install and Build
 
