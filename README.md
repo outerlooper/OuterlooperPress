@@ -2,12 +2,16 @@
 
 ## A Child Is Born
 Outerlooper, A WordPress Child Theme
+
 Author: Outerlooper, Michael Cooper
+
 Template: Twenty Twenty One
 
 ## Install
-Requires the Twenty Twenty One parent theme
+Requires the 'Twenty Twenty One' WordPress parent theme
+
 Run npm-install to update packages
+
 Run Gulp to build assets
 
 ## Gulp Build
