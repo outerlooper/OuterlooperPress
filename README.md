@@ -26,7 +26,7 @@
 
 ## The Gulp Build
 
-**Gulp it up!** The build outputs the **OuterlooperPress** styles, scripts and maps (minifed + expanded), as well as, optional image file compression.
+**Gulp it up!** The build outputs the **OuterlooperPress** styles, scripts and maps (minifed + expanded), as well as, optional theme image file compression.
 
 ### The Assets
 The `./assets/` folder is where all the dev action is.
