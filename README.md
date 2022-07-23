@@ -26,24 +26,24 @@
 
 ## The Gulp Build
 
-`$ gulp` - **The Gulp Build** outputs the **OuterlooperPress** styles, scripts and maps (minifed + expanded), as well as, optional theme image file compression.
+`$ gulp` - **The Gulp Build** outputs the **OuterlooperPress** theme styles, scripts and maps (minifed + expanded), as well as, optional theme image file compression.
 
 ### The Assets
 
 `./assets/` - where all the action is
 
-- `css/` - additional CSS outside of the core **OuterlooperPress** styles
+- `css/` - additional CSS outside of the core **OuterlooperPress** theme styles
 - `fonts/` - locally hosted fonts
 - `images/` - **OuterlooperPress** theme images folder
 - `img/` - (dev) for compressing image files to be used in the theme
   - The build compresses and distributes any image file(s) found in the `img/` directory over to the main **OuterlooperPress** theme `images/` folder ... *Handy*
-- `js/` - additional JavaScript outside of the core **OuterlooperPress** scripts
-- `sass/` - (dev) for transpiling, mapping and minfiying the **OuterlooperPress** SCSS to CSS
+- `js/` - additional JavaScript outside of the core **OuterlooperPress** theme scripts
+- `sass/` - (dev) for transpiling, mapping and minfiying the **OuterlooperPress** theme SCSS to CSS
   - `./style.css`
   - `./style.css.map`
   - `./style.min.css`
   - `./style.min.css.map`
-- `scripts/` - (dev) for transpiling, mapping and minfiying the **OuterlooperPress** JavaScript
+- `scripts/` - (dev) for transpiling, mapping and minfiying the **OuterlooperPress** theme JavaScript
   - `./scripts.js`
   - `./scripts.js.map`
   - `./scripts.min.js`
@@ -56,14 +56,14 @@
 
 - `./style.css` - (*required*) expanded **OuterlooperPress** theme CSS style details
 - `./style.css.map` - expanded CSS map
-- `./style.min.css` - (prod) minified **OuterlooperPress** style
+- `./style.min.css` - (prod) minified **OuterlooperPress** theme style
 - `./style.min.css.map` - minified map
 
 ### The Scripts
 
 *DO NOT modify these files manually - `$ gulp` - **The Gulp Build** is good.
 
-- `./scripts.js` - expanded **OuterlooperPress** JavaScript scripts
+- `./scripts.js` - expanded **OuterlooperPress** JavaScript theme scripts
 - `./scripts.js.map` - expanded JavaScript map
-- `./scripts.min.js` - (prod) minified **OuterlooperPress** scripts
+- `./scripts.min.js` - (prod) minified **OuterlooperPress** theme scripts
 - `./scripts.min.js.map` - minified map
