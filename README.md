@@ -1,5 +1,7 @@
 # OuterlooperPress
 
+An otherwordly WordPress theme created for my personal works based on the **Twenty Twenty One** parent theme. Kudos to the **WordPress team** for their amazing work. Cheers!
+
 ## A Star Child Is Born
 
 - Outerlooper, A WordPress Child Theme
