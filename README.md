@@ -1,12 +1,12 @@
 # OuterlooperPress
 
-**OuterlooperPress** is an otherworldly **WordPress** *child theme* created for my personal thoughts, interests and works from out here in the perimeter; from outside of the loop. 
+**OuterlooperPress** is an otherworldly **WordPress Theme** created for my own personal projects from *way out here* in the perimeter; from *outside of the loop*; by a *true* ***Outerlooper***. 
 
-**OuterlooperPress** is based on the **Twenty Twenty One** *parent theme*. Love and appreciation to the **WordPress team** for their amazing work. Cheers!
+**OuterlooperPress** is a *child theme* inheriting all the beauty of the **Twenty Twenty One** *parent theme* and taking it to a whole other dimension. All the love and appreciation to the **WordPress team** for their amazing work. Cheers!
 
 ## A Star Child Is Born
 
-**OuterlooperPress** - an outside of the loop WordPress theme
+**OuterlooperPress** - an outerlooper WordPress theme
 
 - Author: Outerlooper, Michael Cooper
 - Website: [outerlooper.github.io](https://outerlooper.github.io/)
