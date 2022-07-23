@@ -4,7 +4,7 @@
 
 ## A Star Child Is Born
 
-**OuterlooperPress** - an outside of the loop WordPress theme.
+**OuterlooperPress** - an outside of the loop WordPress theme
 
 - Author: Outerlooper, Michael Cooper
 - Website: [outerlooper.github.io](https://outerlooper.github.io/)
@@ -29,7 +29,7 @@
 
 ## The Gulp Build
 
-`$ gulp` - outputs the **OuterlooperPress** theme styles, scripts and maps (minifed + expanded) along with optional image file compression handling.
+`$ gulp` - outputs the **OuterlooperPress** theme styles, scripts and maps (minifed + expanded) along with optional image file compression handling
 
 ### The Assets
 
