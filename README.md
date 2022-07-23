@@ -30,7 +30,7 @@
 
 ### The Assets
 
-`./assets/` ... where all the action is.
+`./assets/` - where all the action is
 
 - `css/` - additional CSS outside of the core **OuterlooperPress** styles
 - `fonts/` - locally hosted fonts
