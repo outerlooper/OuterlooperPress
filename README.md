@@ -26,7 +26,7 @@
 
 ## The Gulp Build
 
-**Gulp it up!** The build outputs the **OuterlooperPress** styles, scripts and maps (minifed + expanded), as well as, optional theme image file compression.
+**Gulp it up!** The Gulp Build outputs the **OuterlooperPress** styles, scripts and maps (minifed + expanded), as well as, optional theme image file compression.
 
 ### The Assets
 The `./assets/` folder is where all the dev action is.
@@ -50,12 +50,18 @@ The `./assets/` folder is where all the dev action is.
 - `vendor/` - locally served vendor files
 
 ### The Style
+
+*DO NOT update these files manually - `$ gulp` - The Gulp Build is your friend.
+
 - `./style.css` - (*required*) expanded **OuterlooperPress** theme CSS style details
 - `./style.css.map` - expanded CSS map
 - `./style.min.css` - (prod) minified **OuterlooperPress** style
 - `./style.min.css.map` - minified map
 
 ### The Scripts
+
+*DO NOT update these files manually - `$ gulp` - The Gulp Build is good.
+
 - `./scripts.js` - expanded **OuterlooperPress** JavaScript scripts
 - `./scripts.js.map` - expanded JavaScript map
 - `./scripts.min.js` - (prod) minified **OuterlooperPress** scripts
