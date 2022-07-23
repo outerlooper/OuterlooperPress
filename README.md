@@ -22,14 +22,15 @@
 
     `$ gulp`
 
-- Boom. Let's Rock This Bitch!
+- Boom ... let's rock this bitch.
 
 ## The Gulp Build
 
-**Gulp it up!** - `$ gulp` - The Gulp Build outputs the **OuterlooperPress** styles, scripts and maps (minifed + expanded), as well as, optional theme image file compression.
+`$ gulp` - **The Gulp Build** outputs the **OuterlooperPress** styles, scripts and maps (minifed + expanded), as well as, optional theme image file compression.
 
 ### The Assets
-The `./assets/` folder is where all the dev action is.
+
+`./assets/` ... where all the action is.
 
 - `css/` - additional CSS outside of the core **OuterlooperPress** styles
 - `fonts/` - locally hosted fonts
@@ -51,7 +52,7 @@ The `./assets/` folder is where all the dev action is.
 
 ### The Style
 
-*DO NOT modify these files manually - `$ gulp` - The Gulp Build is your friend.
+*DO NOT modify these files manually - `$ gulp` - **The Gulp Build** is your friend.
 
 - `./style.css` - (*required*) expanded **OuterlooperPress** theme CSS style details
 - `./style.css.map` - expanded CSS map
@@ -60,7 +61,7 @@ The `./assets/` folder is where all the dev action is.
 
 ### The Scripts
 
-*DO NOT modify these files manually - `$ gulp` - The Gulp Build is good.
+*DO NOT modify these files manually - `$ gulp` - **The Gulp Build** is good.
 
 - `./scripts.js` - expanded **OuterlooperPress** JavaScript scripts
 - `./scripts.js.map` - expanded JavaScript map
