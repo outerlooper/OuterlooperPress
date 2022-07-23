@@ -24,6 +24,11 @@ function OuterlooperPress_enqueue_styles() {
 
 add_action( 'wp_enqueue_scripts', 'OuterlooperPress_enqueue_scripts', 818 );
 function OuterlooperPress_enqueue_scripts() {
-    wp_enqueue_script( 'outerlooper-press-scripts', get_stylesheet_directory_uri() . '/scripts.js');
+    $theme   = wp_get_theme();
+    $version = $theme->get( 'Version' );
+    wp_enqueue_script( 'outerlooper-press-scripts', get_stylesheet_directory_uri() . '/scripts.js', 
+    array(), 
+    $theme->get('Version'),
+    true);
 }
 ?>
