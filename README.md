@@ -29,7 +29,7 @@
 
 ## The Gulp Build
 
-`$ gulp` - outputs the **OuterlooperPress** theme styles, scripts and maps (minifed + expanded) along with optional image file compression.
+`$ gulp` - outputs the **OuterlooperPress** theme styles, scripts and maps (minifed + expanded) along with optional image file compression handling.
 
 ### The Assets
 
