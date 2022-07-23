@@ -26,13 +26,13 @@
 
 ## The Gulp Build
 
-The build outputs both the minified and expanded versions of the CSS and JavaScript files along with their respective map files, as well as any *image minification* that needs handling.
+The build outputs both the minified and expanded versions of the CSS and JavaScript files along with their respective map files. It can also handle some image minification when you need it as well.
 
 ### The `./assets/` folder is where all the action is
 - The `css/` folder is for CSS.
 - The `fonts/` folder is for fonts.
 - The `images/` folder (PROD) is the main images folder.
 - The `img/` folder (DEV) is for image files that need to be minimized. The build minifies and moves any image file(s) from the `img/` directory into the main `images/` folder\. Handy.
-- The `sass/` folder is for SASS/CSS files to be processed into CSS, minified and output to the `./style.min.css` file found in the root.
-- The `scripts/` folder is for JavaScript files to be combined, minified and output to the `./scripts.min.js` file found in the root.
+- The `sass/` folder is for SASS/CSS files to be processed into CSS, minified and output to the `./style.css` and `./style.min.css` files.
+- The `scripts/` folder is for JavaScript files to be combined, minified and output to the `./scripts.js` and `./scripts.min.js` files.
 - The `vendor/` folder is for vendor files.
