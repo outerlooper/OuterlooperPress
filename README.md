@@ -1,18 +1,15 @@
 # OuterlooperPress
 
 ## A Child Is Born
-Outerlooper, A WordPress Child Theme
-
-Author: Outerlooper, Michael Cooper
-
-Template: Twenty Twenty One
+- Outerlooper, A WordPress Child Theme
+- Author: Outerlooper, Michael Cooper
+- Template: Twenty Twenty One
 
 ## Install
-Requires the 'Twenty Twenty One' WordPress parent theme
-
-Run npm-install to update packages
-
-Run Gulp to build assets
+- Download 'OuterlooperPress' into the WordPress themes directory
+- Requires the 'Twenty Twenty One' WordPress parent theme
+- Run 'npm-install' to update packages
+- Run 'gulp' to build assets
 
 ## Gulp Build
 The Gulp build outputs the theme's minified and expanded CSS and JS along with their maps, as well as any designated image minification.
