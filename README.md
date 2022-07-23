@@ -8,11 +8,21 @@
 
 ## Install
 
-- Clone this "***OuterlooperPress***" WordPress theme repo into your `./wp-content/themes/` folder: `git clone https://github\.com/outerlooper/OuterlooperPress\.git`.
+- Clone this "***OuterlooperPress***" WordPress theme repo into your `./wp-content/themes/` folder:
+
+    `$ git clone https://github.com/outerlooper/OuterlooperPress.git`
+
 - Make sure the "***Twenty Twenty One***" WordPress *(parent)* theme is installed.
 - Open the `OuterlooperPress/` theme directory in terminal.
-- Run `npm-install` to grab the packages.
-- Run `gulp` to build the assets.
+- Grab the packages:
+
+    `$ npm-install`
+
+- Build the assets:
+
+    `$ gulp`
+
+- Boom.
 
 ## Gulp Build
 
