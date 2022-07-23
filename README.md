@@ -17,7 +17,7 @@ May **The Source** Be Ever With You. Cheers!
 
     `$ git clone https://github.com/outerlooper/OuterlooperPress.git`
 
-- Make sure the "***Twenty Twenty One***" WordPress *(parent)* theme is installed
+- Make sure the "***Twenty Twenty One***" *(parent)* theme is installed
 - Open the `OuterlooperPress/` theme directory in your terminal
 - Grab the packages:
 
