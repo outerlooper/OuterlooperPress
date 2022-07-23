@@ -13,7 +13,7 @@ May **The Source** Be Ever With You. Cheers!
 
 ## &#x26A1; Install and Build
 
-- Clone this "***OuterlooperPress***" WordPress theme repo into your `./wp-content/themes/` folder:
+- Clone the "***OuterlooperPress***" repo into your `./wp-content/themes/` folder:
 
     `$ git clone https://github.com/outerlooper/OuterlooperPress.git`
 
