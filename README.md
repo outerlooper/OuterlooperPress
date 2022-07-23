@@ -4,7 +4,7 @@
 
 **OuterlooperPress** is a **WordPress** *child theme* inheriting all of the core excellence bestowed upon us by **Twenty Twenty One** *parent theme* to ground us well as we fearlessly set course for *other dimensions unknown*. All the love and appreciation to **the team** for the amazing work. The glory is yours, the experience is ours, but the pleasure is all mine. 
 
-May **The Source** Be Ever WIth You. Cheers!
+May **The Source** Be Ever With You. Cheers!
 
 - Theme: OuterlooperPress
 - Parent: Twenty Twenty One
