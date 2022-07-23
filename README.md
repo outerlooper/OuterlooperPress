@@ -31,7 +31,7 @@
 
 `$ gulp` - outputs the **OuterlooperPress** theme styles, scripts and maps (minifed + expanded) along with optional image file compression handling
 
-### The Assets
+### &#x2728; The Assets
 
 `./assets/` - where all the action is
 
@@ -53,7 +53,7 @@
   - `./scripts.min.js.map`
 - `vendor/` - locally served vendor files
 
-### The Style
+### &#x2728; The Style
 
 *DO NOT modify these files manually - `$ gulp` - **The Gulp Build** is your friend.
 
@@ -62,7 +62,7 @@
 - `./style.min.css` - (prod) minified **OuterlooperPress** theme style
 - `./style.min.css.map` - minified map
 
-### The Script
+### &#x2728; The Script
 
 *DO NOT modify these files manually - `$ gulp` - **The Gulp Build** is good.
 
