@@ -31,32 +31,32 @@ The build outputs both the minified and expanded versions of the CSS and JavaScr
 ### The Assets
 The `./assets/` folder is where all the dev action is.
 
-- `css/` folder (PROD) - for additional CSS outside of the core styles.
-- `fonts/` folder (PROD) - for hosting fonts locally.
-- `images/` folder (PROD) - the theme images folder.
-- `img/` folder (DEV) - for compressing image files to be used in the theme.
-  - The build compresses and distributes any image file(s) found in the `img/` directory over to the main `images/` folder\. *Handy*.
-- `js/` folder (PROD) - for additional JavaScript outside of the core scripts.
-- `sass/` folder (DEV) is for transpiling, mapping and minfiying the **OuterlooperPress** SCSS to CSS.
+- `css/` - additional CSS outside of the core styles
+- `fonts/` - locally hosted fonts
+- `images/` - theme images folder
+- `img/` *(dev)* - for compressing image files to be used in the theme
+  - The build compresses and distributes any image file(s) found in the `img/` directory over to the main `images/` folder *Handy*
+- `js/` - additional JavaScript outside of the core scripts
+- `sass/` *(dev)* - for transpiling, mapping and minfiying the **OuterlooperPress** SCSS to CSS
   - `./style.css`
   - `./style.css.map`
   - `./style.min.css`
   - `./style.min.css.map`
-- `scripts/` folder (DEV) is for transpiling, mapping and minfiying the **OuterlooperPress** JavaScript.
+- `scripts/` *(dev)* - for transpiling, mapping and minfiying the **OuterlooperPress** JavaScript
   - `./scripts.js`
   - `./scripts.js.map`
   - `./scripts.min.js`
   - `./scripts.min.js.map`
-- `vendor/` folder (DEV/PROD) is for vendor files.
+- `vendor/` - locally served vendor files
 
 ### The Style
-- `./style.css` file - expanded CSS (DEV).
-- `./style.css.map` file - map for expanded CSS.
-- `./style.min.css` file - minifed CSS (PROD).
-- `./style.min.css.map` file - map for expanded CSS.
+- `./style.css` *(dev)* - for WordPress and reviewing expanded CSS styles
+- `./style.css.map` *(dev)* - expanded CSS map
+- `./style.min.css` - *minified production styles
+- `./style.min.css.map` - *minified map
 
 ### The Scripts
-- `./scripts.js` file - expanded JS (DEV).
-- `./scripts.js.map` file - map for expanded JS.
-- `./scripts.min.js` file - minifed JS (PROD).
-- `./scripts.min.js.map` file - map for expanded JS.
+- `./scripts.js` *(dev)* - for reviewing expanded JavaScript scripts
+- `./scripts.js.map` *(dev)* - expanded JavaScript map
+- `./scripts.min.js` - *minified production scripts
+- `./scripts.min.js.map` - *minified map
