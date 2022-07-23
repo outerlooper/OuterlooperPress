@@ -1,4 +1,5 @@
 # OuterlooperPress
+
 Outerlooper, A WordPress Child Theme
 Author: Outerlooper, Michael Cooper
 Template: Twenty Twenty One
