@@ -32,4 +32,4 @@ The build outputs both the minified and expanded versions of the CSS and JavaScr
   - The `sass/` folder is for SASS/CSS files. All SASS files are processed into CSS, minified and output to the `./style.min.css` file found in the root.
   - The `scripts/` folder is for JavaScript files. All scripts are combined, minified and output to the `./scripts.min.js` file found in the root.
   - The `img/` folder is for image minification. The build copies, minifies and pastes the newly minimized image file(s) into the main `./assets/images/` folder. Handy to have around.
-
+  - The `vendor/` folder is for vendor files. :)
