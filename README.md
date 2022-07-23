@@ -15,8 +15,8 @@
 
     `$ git clone https://github.com/outerlooper/OuterlooperPress.git`
 
-- Make sure the "***Twenty Twenty One***" WordPress *(parent)* theme is installed.
-- Open the `OuterlooperPress/` theme directory in your terminal.
+- Make sure the "***Twenty Twenty One***" WordPress *(parent)* theme is installed
+- Open the `OuterlooperPress/` theme directory in your terminal
 - Grab the packages:
 
     `$ npm-install`
@@ -25,7 +25,7 @@
 
     `$ gulp`
 
-- Boom ... let's rock this bitch.
+- Boom ... let's rock this bitch!
 
 ## The Gulp Build
 
