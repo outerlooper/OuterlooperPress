@@ -7,8 +7,9 @@ Cheers!
 ## A Star Child Is Born
 
 - Outerlooper, A WordPress Child Theme
+- Parent Theme: Twenty Twenty One
 - Author: Outerlooper, Michael Cooper
-- Template: Twenty Twenty One
+- Site: [outerlooper.com](https://www.outerlooper.com)
 
 ## Install and Build
 
@@ -63,7 +64,7 @@ Cheers!
 - `./style.min.css` - (prod) minified **OuterlooperPress** theme style
 - `./style.min.css.map` - minified map
 
-### The Scripts
+### The Script
 
 *DO NOT modify these files manually - `$ gulp` - **The Gulp Build** is good.
 
