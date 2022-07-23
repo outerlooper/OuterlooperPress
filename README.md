@@ -1,6 +1,6 @@
 # &#x2728; OuterlooperPress
 
-**OuterlooperPress** is an otherworldly **WordPress Theme** created for my own personal projects; from out here in the perimeter; from here outside of the loop; by a true ***Outerlooper***. 
+**OuterlooperPress** is an otherworldly **WordPress Theme** created for my own personal projects; from out here in the perimeter; just outside of the loop; by an ***Outerlooper*** dude in an ***Outerlooper*** mood. 
 
 **OuterlooperPress** is a *child theme* inheriting all of the excellence given to us by the **Twenty Twenty One** *parent theme* as we set course for *other dimensions unknown*. All the love and appreciation to the **WordPress team** for their amazing work. Cheers! 
 
