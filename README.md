@@ -24,9 +24,9 @@
 
 - Boom.
 
-## What have we here?
+## The Gulp Build
 
-The **Gulp** build outputs both the minified and expanded versions of the CSS and JavaScript files along with their respective map files, as well as any *image minification* that needs handling.
+The build outputs both the minified and expanded versions of the CSS and JavaScript files along with their respective map files, as well as any *image minification* that needs handling.
 
 - The `./assets/` folder is where all the action is.
   - The `sass/` folder is for SASS/CSS files. All SASS files are processed into CSS, minified and output to the `./style.min.css` file found in the root.
