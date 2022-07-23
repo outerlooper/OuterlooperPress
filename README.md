@@ -11,8 +11,8 @@
 - Download ***"OuterlooperPress"*** into the ***./wp-content/themes/*** directory.
 - Make sure the ***"Twenty Twenty One"*** WordPress *(parent)* theme is installed.
 - Open the ***./wp-content/themes/OuterlooperPress/*** folder in terminal.
-- Run ***npm-install*** to update packages.
-- Run ***gulp*** to build assets.
+- Run `***npm-install***` to update packages.
+- Run `***gulp***` to build assets.
 
 ## Gulp Build
 
