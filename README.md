@@ -6,7 +6,7 @@
 - Author: Outerlooper, Michael Cooper
 - Template: Twenty Twenty One
 
-## Install
+## Install and Build
 
 - Clone this "***OuterlooperPress***" WordPress theme repo into your `./wp-content/themes/` folder:
 
