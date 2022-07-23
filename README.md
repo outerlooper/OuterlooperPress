@@ -50,13 +50,13 @@ The `./assets/` folder is where all the dev action is.
 - `vendor/` - locally served vendor files
 
 ### The Style
-- `./style.css` *(dev)* - for WordPress and reviewing expanded CSS styles
+- `./style.css` *(dev)* - expanded **OuterlooperPress** CSS styles - *theme requirement
 - `./style.css.map` - expanded CSS map
 - `./style.min.css` *(prod)* - minified **OuterlooperPress** styles
 - `./style.min.css.map` - minified map
 
 ### The Scripts
-- `./scripts.js` *(dev)* - for reviewing expanded JavaScript scripts
+- `./scripts.js` *(dev)* - expanded **OuterlooperPress** JavaScript scripts
 - `./scripts.js.map` - expanded JavaScript map
 - `./scripts.min.js` *(prod)* - minified **OuterlooperPress** scripts
 - `./scripts.min.js.map` - minified map
