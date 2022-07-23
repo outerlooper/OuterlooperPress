@@ -34,15 +34,15 @@ The `./assets/` folder is where all the dev action is.
 - `css/` - additional CSS outside of the core styles
 - `fonts/` - locally hosted fonts
 - `images/` - theme images folder
-- `img/` *(dev)* - for compressing image files to be used in the theme
+- `img/` - (dev) for compressing image files to be used in the theme
   - The build compresses and distributes any image file(s) found in the `img/` directory over to the main `images/` folder *Handy*
 - `js/` - additional JavaScript outside of the core scripts
-- `sass/` *(dev)* - for transpiling, mapping and minfiying the **OuterlooperPress** SCSS to CSS
+- `sass/` - (dev) for transpiling, mapping and minfiying the **OuterlooperPress** SCSS to CSS
   - `./style.css`
   - `./style.css.map`
   - `./style.min.css`
   - `./style.min.css.map`
-- `scripts/` *(dev)* - for transpiling, mapping and minfiying the **OuterlooperPress** JavaScript
+- `scripts/` - (dev) for transpiling, mapping and minfiying the **OuterlooperPress** JavaScript
   - `./scripts.js`
   - `./scripts.js.map`
   - `./scripts.min.js`
@@ -50,13 +50,13 @@ The `./assets/` folder is where all the dev action is.
 - `vendor/` - locally served vendor files
 
 ### The Style
-- `./style.css` *(dev)* - expanded **OuterlooperPress** CSS styles - *theme requirement
+- `./style.css` - (*required*) expanded **OuterlooperPress** theme CSS style details
 - `./style.css.map` - expanded CSS map
-- `./style.min.css` *(prod)* - minified **OuterlooperPress** styles
+- `./style.min.css` - (prod) minified **OuterlooperPress** style
 - `./style.min.css.map` - minified map
 
 ### The Scripts
-- `./scripts.js` *(dev)* - expanded **OuterlooperPress** JavaScript scripts
+- `./scripts.js` - expanded **OuterlooperPress** JavaScript scripts
 - `./scripts.js.map` - expanded JavaScript map
-- `./scripts.min.js` *(prod)* - minified **OuterlooperPress** scripts
+- `./scripts.min.js` - (prod) minified **OuterlooperPress** scripts
 - `./scripts.min.js.map` - minified map
