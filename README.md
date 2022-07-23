@@ -22,7 +22,7 @@
 
     `$ gulp`
 
-- Boom.
+- Boom. Let's Rock This Bitch!
 
 ## The Gulp Build
 
