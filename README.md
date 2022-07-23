@@ -13,7 +13,7 @@
     `$ git clone https://github.com/outerlooper/OuterlooperPress.git`
 
 - Make sure the "***Twenty Twenty One***" WordPress *(parent)* theme is installed.
-- Open the `OuterlooperPress/` theme directory in terminal.
+- Open the `OuterlooperPress/` theme directory in your terminal.
 - Grab the packages:
 
     `$ npm-install`
