@@ -31,5 +31,5 @@ The **Gulp** build outputs both the minified and expanded versions of the CSS an
 - The `./assets/` folder is where all the action is.
   - The `sass/` folder is for SASS/CSS files. All SASS into CSS are assembled, minified and output to the `./style.min.css` file found in the root - which just so happens to be the main CSS file for this theme.
   - The `scripts/` folder is for JavaScript files. All scripts are assembled, minified and output to the `./scripts.min.js` file found in the root - which just so happens to be the main JS file for this theme.
-  - The `img/` folder is a working directory for image minification. The build copies, minifies and pastes the minimized image into the main `./assets/images/` folder. Handy to have around.
+  - The `img/` folder is a working directory for image minification. The build copies, minifies and pastes the minimized image file(s) into the main `./assets/images/` folder. Handy to have around.
 
