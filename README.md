@@ -26,7 +26,7 @@
 
 ## The Gulp Build
 
-The build outputs both the minified and expanded versions of the CSS and JavaScript files along with their respective map files. It can also handle some image minification when you need it as well.
+Gulpin' it up! - The build outputs the **OuterlooperPress** styles, scripts and maps (minifed + expanded) as well as image file compression.
 
 ### The Assets
 The `./assets/` folder is where all the dev action is.
