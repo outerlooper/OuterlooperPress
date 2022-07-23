@@ -33,6 +33,6 @@ The build outputs both the minified and expanded versions of the CSS and JavaScr
 - The `fonts/` folder is for fonts.
 - The `images/` folder (PROD) is the main images folder.
 - The `img/` folder (DEV) is for image files that need to be minimized. The build minifies and moves the newly minimized image file(s) from `img/` into the main `images/` folder\. Handy to have around.
-- The `sass/` folder is for SASS/CSS files. All SASS files are processed into CSS, minified and output to the `./style.min.css` file found in the root.
-- The `scripts/` folder is for JavaScript files. All scripts are combined, minified and output to the `./scripts.min.js` file found in the root.
+- The `sass/` folder is for SASS/CSS files to be processed into CSS, minified and output to the `./style.min.css` file found in the root.
+- The `scripts/` folder is for JavaScript files to be combined, minified and output to the `./scripts.min.js` file found in the root.
 - The `vendor/` folder is for vendor files.
