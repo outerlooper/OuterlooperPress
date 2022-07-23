@@ -4,7 +4,7 @@
 
 ## A Star Child Is Born
 
-**OuterlooperPress**, a WordPress child theme.
+**OuterlooperPress** - an outside of the loop WordPress theme.
 
 - Author: Outerlooper, Michael Cooper
 - Site: [outerlooper.github.io](https://outerlooper.github.io/)
