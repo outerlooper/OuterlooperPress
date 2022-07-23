@@ -7,7 +7,7 @@
 **OuterlooperPress** - an outside of the loop WordPress theme.
 
 - Author: Outerlooper, Michael Cooper
-- Site: [outerlooper.github.io](https://outerlooper.github.io/)
+- Website: [outerlooper.github.io](https://outerlooper.github.io/)
 
 ## Install and Build
 
