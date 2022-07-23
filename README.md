@@ -1,6 +1,6 @@
 # OuterlooperPress
 
-## A Child Is Born
+## A Star Child Is Born
 
 - Outerlooper, A WordPress Child Theme
 - Author: Outerlooper, Michael Cooper
