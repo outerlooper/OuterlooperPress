@@ -31,12 +31,12 @@ The build outputs both the minified and expanded versions of the CSS and JavaScr
 ### The Assets
 The `./assets/` folder is where all the dev action is.
 
-- `css/` - additional CSS outside of the core styles
+- `css/` - additional CSS outside of the core **OuterlooperPress** styles
 - `fonts/` - locally hosted fonts
-- `images/` - theme images folder
+- `images/` - **OuterlooperPress** theme images folder
 - `img/` - (dev) for compressing image files to be used in the theme
-  - The build compresses and distributes any image file(s) found in the `img/` directory over to the main `images/` folder ... *Handy*
-- `js/` - additional JavaScript outside of the core scripts
+  - The build compresses and distributes any image file(s) found in the `img/` directory over to the main **OuterlooperPress** `images/` folder ... *Handy*
+- `js/` - additional JavaScript outside of the core **OuterlooperPress** scripts
 - `sass/` - (dev) for transpiling, mapping and minfiying the **OuterlooperPress** SCSS to CSS
   - `./style.css`
   - `./style.css.map`
