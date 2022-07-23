@@ -26,7 +26,7 @@
 
 ## What have we here?
 
-The **Gulp** build outputs both the minified and expanded versions of the CSS and JavaScript files along with their respective map files, as well as any **image minification** that needs handling.
+The **Gulp** build outputs both the minified and expanded versions of the CSS and JavaScript files along with their respective map files, as well as any *image minification* that needs handling.
 
 - The `./assets/` folder is where all the action is.
 - The `sass/` folder is a working directory for SASS/CSS files. The build assembles all SASS into CSS, minifies 'em and overwrites the `style.min.css` file into the root - which just so happens to be the main CSS file for this theme.
