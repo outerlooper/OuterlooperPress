@@ -2,7 +2,7 @@
 
 **OuterlooperPress** is an otherworldly **WordPress Theme** created for my own personal projects; from *out here in the perimeter*; from *outside of the loop*; by a *true* ***Outerlooper***. 
 
-**OuterlooperPress** is a *child theme* inheriting all of the excellence given to us by the **Twenty Twenty One** *parent theme*, and then of course, we take that it into *other dimensions unknown*. All the love and appreciation to the **WordPress team** for their amazing work. Cheers! &#x1F942;
+**OuterlooperPress** is a *child theme* inheriting all of the excellence given to us by the **Twenty Twenty One** *parent theme*, then of course, we set course for *other dimensions unknown*. All the love and appreciation to the **WordPress team** for their amazing work. Cheers! &#x1F942;
 
 - Theme: OuterlooperPress
 - Parent: Twenty Twenty One
