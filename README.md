@@ -8,7 +8,7 @@
 
 ## Install
 
-- Download "***OuterlooperPress***" into the `./wp-content/themes/` folder.
+- Clone the "***OuterlooperPress***" theme into your `./wp-content/themes/` folder.
 - Make sure the "***Twenty Twenty One***" WordPress *(parent)* theme is installed.
 - Open the `OuterlooperPress/` theme directory in terminal.
 - Run `npm-install` to grab the packages.
