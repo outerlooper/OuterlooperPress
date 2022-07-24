@@ -7,7 +7,7 @@
 - Author: Outerlooper, Michael Cooper
 - Website: [outerlooper.github.io](https://outerlooper.github.io/)
 
-**OuterlooperPress** is a **WordPress** *(child)* theme that inherits it's **bones** from the **Twenty Twenty One** *(parent)* theme. This CO-OP serves to ground us well as we fearlessly set course for other dimensions unknown. Kudos to **the team** for all of the wonderful creations. The glory yours, experience ours, but the pleasure is all mine. 
+**OuterlooperPress** is a **WordPress** *(child)* theme that inherits it's **bones** from the **Twenty Twenty One** *(parent)* theme. This CO-OP serves to ground us well as we fearlessly set course for other dimensions unknown. Kudos to **the team** for all of the wonderful creations. *The glory yours, experience ours, but the pleasure is all mine.* 
 
 May **The Source** be ever with you. Cheers!
 
