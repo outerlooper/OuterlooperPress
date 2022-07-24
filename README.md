@@ -35,7 +35,7 @@ May **The Source** be ever with you. Cheers!
 
 ## &#x26A1; The Gulp Build
 
-`$ gulp` - outputs the **OuterlooperPress** theme styles, scripts and maps (minifed + expanded) along with optional image file compression handling
+`$ gulp` - outputs the **OuterlooperPress** theme styles, scripts and maps (minifed + expanded) along with any optional image file compression handling.
 
 ### &#x2728; The Assets
 
