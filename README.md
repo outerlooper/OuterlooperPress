@@ -61,7 +61,7 @@ May **The Source** be ever with you. Cheers!
 
 ### &#x2728; The Style
 
-*DO NOT modify these files manually - `$ gulp` - **The Gulp Build** is your friend.
+*Generated: **DO NOT** modify these files manually - `$ gulp` - **The Gulp Build** is your friend.
 
 - `./style.css` - (*required*) expanded **OuterlooperPress** theme CSS style details
 - `./style.css.map` - expanded CSS map
@@ -70,7 +70,7 @@ May **The Source** be ever with you. Cheers!
 
 ### &#x2728; The Script
 
-*DO NOT modify these files manually - `$ gulp` - **The Gulp Build** is good.
+*Generated: **DO NOT** modify these files manually - `$ gulp` - **The Gulp Build** is good.
 
 - `./scripts.js` - expanded **OuterlooperPress** JavaScript theme scripts
 - `./scripts.js.map` - expanded JavaScript map
