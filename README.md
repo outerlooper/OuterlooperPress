@@ -7,7 +7,7 @@
 - Author: Outerlooper, Michael Cooper
 - Website: [outerlooper.github.io](https://outerlooper.github.io/)
 
-**OuterlooperPress** is a **WordPress** *(child)* theme which inherits it's **bones** from the **Twenty Twenty One** *(parent)* theme. This CO-OP serves to ground us well as we fearlessly set course for other dimensions unknown. Kudos to **the team** for all of the wonderful creations. The glory is yours, the experience is ours, but the pleasure is mine. May **The Source** be ever with you. Cheers!
+**OuterlooperPress** is a **WordPress** *(child)* theme that inherits it's **bones** from the **Twenty Twenty One** *(parent)* theme. This CO-OP serves to ground us well as we fearlessly set course for other dimensions unknown. Kudos to **the team** for all of the wonderful creations. The glory is yours. The experience is ours. The pleasure is mine. May **The Source** be ever with you. Cheers!
 
 ## &#x26A1; Install and Build
 
@@ -21,7 +21,7 @@
 
     `$ npm i node-fetch@2.6.1`
 
-- Grab the packages
+- Grab the packages 
 
     `$ npm-install`
 
