@@ -11,17 +11,21 @@
 
 ## &#x26A1; Install and Build
 
-- Clone the "***OuterlooperPress***" repo into your `./wp-content/themes/` folder:
+- Clone the "***OuterlooperPress***" repo into your `./wp-content/themes/` folder
 
     `$ git clone https://github.com/outerlooper/OuterlooperPress.git`
 
 - Make sure the "***Twenty Twenty One***" *(parent)* theme is installed
+- Make sure [Node.js *2.6.1](https://nodejs.org/en/download/) is installed and running
+
+    `$ npm i node-fetch@2.6.1`
+
 - Open the `OuterlooperPress/` theme directory in your terminal
-- Grab the packages:
+- Grab the packages
 
     `$ npm-install`
 
-- Build the assets:
+- Build the assets
 
     `$ gulp`
 
