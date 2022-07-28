@@ -68,6 +68,7 @@ $baseline-unit: 10px;
 	--global--color-dark-gray: #28303d;
 	--global--color-gray: #39414d;
 	--global--color-light-gray: #f0f0f0;
+	--global--color-magenta: magenta;
 	--global--color-green: #d1e4dd;
 	--global--color-blue: #d1dfe4;
 	--global--color-purple: #d1d1e4;
@@ -78,10 +79,17 @@ $baseline-unit: 10px;
 	--global--color-white-50: rgba(255, 255, 255, 0.5); // Used for disabled buttons
 	--global--color-white-90: rgba(255, 255, 255, 0.9); // Used in form fields.
 
-	--global--color-primary: var(--global--color-dark-gray); /* Body text color, site title, footer text color. */
-	--global--color-secondary: var(--global--color-gray); /* Headings */
-	--global--color-primary-hover: var(--global--color-primary);
-	--global--color-background: var(--global--color-green); /* Mint, default body background */
+	//--global--color-primary: var(--global--color-dark-gray); /* Body text color, site title, footer text color. */
+	//--global--color-secondary: var(--global--color-gray); /* Headings */
+	//--global--color-primary-hover: var(--global--color-primary);
+	//--global--color-background: var(--global--color-green); /* Mint, default body background */
+	//--global--color-border: var(--global--color-primary); /* Used for borders (separators) */
+
+	--global--color-accent: var(--global--color-magenta);
+	--global--color-primary: var(--global--color-white); /* Body text color, site title, footer text color. */
+	--global--color-secondary: var(--global--color-primary); /* Headings */
+	--global--color-primary-hover: var(--global--color-accent);
+	--global--color-background: var(--global--color-black); /* Mint, default body background */
 	--global--color-border: var(--global--color-primary); /* Used for borders (separators) */
 
 	/* Spacing */

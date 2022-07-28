@@ -6,7 +6,7 @@ Description: OuterlooperPress is a child theme of Twenty Twenty-Two, created by 
 Author: Outerloope
 Author URI: https://outerlooper.com/
 Template: twentytwentyone
-Version: 0.0.1
+Version: 0.0.1.2
 Text Domain: OuterlooperPress
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -143,6 +143,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
   --global--color-dark-gray: #28303d;
   --global--color-gray: #39414d;
   --global--color-light-gray: #f0f0f0;
+  --global--color-magenta: magenta;
   --global--color-green: #d1e4dd;
   --global--color-blue: #d1dfe4;
   --global--color-purple: #d1d1e4;
@@ -152,10 +153,11 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
   --global--color-white: #fff;
   --global--color-white-50: rgba(255, 255, 255, 0.5);
   --global--color-white-90: rgba(255, 255, 255, 0.9);
-  --global--color-primary: var(--global--color-dark-gray); /* Body text color, site title, footer text color. */
-  --global--color-secondary: var(--global--color-gray); /* Headings */
-  --global--color-primary-hover: var(--global--color-primary);
-  --global--color-background: var(--global--color-green); /* Mint, default body background */
+  --global--color-accent: var(--global--color-magenta);
+  --global--color-primary: var(--global--color-white); /* Body text color, site title, footer text color. */
+  --global--color-secondary: var(--global--color-primary); /* Headings */
+  --global--color-primary-hover: var(--global--color-accent);
+  --global--color-background: var(--global--color-black); /* Mint, default body background */
   --global--color-border: var(--global--color-primary); /* Used for borders (separators) */
   /* Spacing */
   --global--spacing-unit: 20px;
@@ -925,7 +927,7 @@ body {
   font-weight: normal;
   color: var(--global--color-primary);
   text-align: left;
-  background-color: var(--global--color-background);
+  background-color: transparent;
 }
 
 button {
@@ -5106,5 +5108,160 @@ footer {
 }
 .is-IE .post-thumbnail .wp-post-image {
   min-width: auto;
+}
+
+/* Category 08 is for custom design elements */
+body {
+  position: relative;
+}
+
+#page {
+  position: relative;
+  z-index: 0;
+}
+
+.stars, .twinkling, .clouds {
+  position: absolute;
+  position: fixed;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.stars {
+  z-index: -3;
+  background: #000 url("assets/images/stars/stars.png") repeat top center;
+}
+
+.twinkling {
+  z-index: -2;
+  background: transparent url("assets/images/stars/twinkling.png") repeat top center;
+  -webkit-animation: move-twink-back 200s linear infinite;
+          animation: move-twink-back 200s linear infinite;
+}
+
+@-webkit-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-webkit-keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@keyframes move-clouds-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+/* Animated Starfield 
+------------------------------------- */
+#starfield-space, .starfield-stars {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.starfield-stars {
+  background-image: radial-gradient(2px 2px at 20px 30px, #eee, rgba(0, 0, 0, 0)), radial-gradient(2px 2px at 40px 70px, violet, rgba(0, 0, 0, 0)), radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0, 0, 0, 0)), radial-gradient(2px 2px at 90px 40px, #fff, rgba(0, 0, 0, 0)), radial-gradient(2px 2px at 130px 80px, violet, rgba(0, 0, 0, 0)), radial-gradient(2px 2px at 160px 120px, #ddd, rgba(0, 0, 0, 0));
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  -webkit-animation: zoom 5s infinite;
+          animation: zoom 5s infinite;
+  opacity: 0;
+}
+
+.starfield-stars:nth-child(1) {
+  background-position: 50% 50%;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.starfield-stars:nth-child(2) {
+  background-position: 20% 60%;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.starfield-stars:nth-child(3) {
+  background-position: -20% -30%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.starfield-stars:nth-child(4) {
+  background-position: 40% -80%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.starfield-stars:nth-child(5) {
+  background-position: -20% 30%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  85% {
+    opacity: 1;
+    transform: scale(2.8);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(3.5);
+  }
+}
+
+@keyframes zoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  85% {
+    opacity: 1;
+    transform: scale(2.8);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(3.5);
+  }
 }
 /*# sourceMappingURL=style.css.map */

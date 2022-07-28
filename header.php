@@ -22,6 +22,21 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+
+<div id="orb" class="hide"></div>
+    <span id="moon" class="hide"></span>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+
+    <div id="starfield-space">
+        <div class="starfield-stars"></div>
+        <div class="starfield-stars"></div>
+        <div class="starfield-stars"></div>
+        <div class="starfield-stars"></div>
+        <div class="starfield-stars"></div>
+    </div>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a>
 
