@@ -1,0 +1,98 @@
+
+// #masthead {
+//     &.site-header.has-title-and-tagline {
+//         div.site-branding {
+//             h1.site-title {
+//                 a {
+
+//                 }
+//                 span.site-description {
+//                     i {
+
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+#masthead {
+    // background: red;
+    margin: 0;
+    width: auto;
+    min-width: 500px;
+    max-width: auto;
+    display: block;
+    position: fixed;
+    left: 5px; //10px;
+    top: 0px;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 777;
+    // opacity: 0;
+}
+
+// @media only screen and (min-width: 822px) {
+//     .site-title {
+//         padding: 0 !important;
+//         padding-top: 0 !important;
+//     }
+// }
+// @media only screen and (min-width: 482px) {
+//     .site-title {
+//         padding: 0 !important;
+//         padding-top: 0 !important;
+//     }
+// }
+
+.site-header {
+    padding: 0;
+    width: auto;
+}
+
+.site-title {
+    color: rgba(0,0,0,.35);
+    display: inline-block;
+    font-size: 2.639rem; 
+    line-height: normal;
+    margin: 0 11px 0 0;
+    padding: 0;
+    padding-top: 0 !important;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-box-reflect: below -18px linear-gradient(transparent,#0005);
+    transition: .5s;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: rgba(0,0,0,.35);
+            -webkit-text-stroke: 1px #fff;
+            //-webkit-box-reflect: below -3px linear-gradient(transparent,#0005);
+            transition: 0.5s;
+
+            &:hover, 
+            &:active,
+            &:focus {
+                text-decoration: none;
+                //text-shadow:1px 1px 1px rgba(255,0,255,.69);//, 1px 1px 1px #ccc;
+                filter: drop-shadow(-3px -3px 5px rgba(255,0,255,1))
+                        drop-shadow(5px 5px 10px rgba(255,0,255,.88));
+                        //drop-shadow(15px 15px 15px rgba(255,0,255,.5));
+            }
+        }
+
+        .site-description {
+            color: #fff;
+            display: inline-block;
+            font-size: 1.111rem;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0;
+            padding: 0;
+            -webkit-text-stroke: 0;
+            //-webkit-box-reflect: below -12px linear-gradient(transparent,#0005);
+        }
+}
