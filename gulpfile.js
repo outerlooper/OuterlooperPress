@@ -29,8 +29,8 @@ const jsSrc = [
 // const imgDest = './assets/images';
 // const fontDest = './assets/fonts';
 // const venDest = './assets/vendor';
-const cssDarkModeDest = './assets/css';
-const cssEditorDest = './assets/css';
+// const cssDarkModeDest = './assets/css';
+// const cssEditorDest = './assets/css';
 const cssDest = './assets/css';
 //const jsDest = './assets/js';
 
@@ -97,6 +97,22 @@ function cssMin() {
         //.pipe(browserSync.stream());
 }
 
+function cssEditor() {
+    return gulp.src(cssEditorSrc)
+        .pipe(sourcemaps.init({ loadMaps: true }))
+        .pipe(
+        sass({
+            outputStyle: 'expanded',
+        }).on('error', sass.logError)
+        )
+        .pipe(postcss([autoprefixer()]))
+        .pipe(sourcemaps.write('.'))
+        //.pipe(gulp.dest(rootDir));
+        .pipe(gulp.dest(cssDest));
+        //.pipe(gulp.dest(cssDev))
+        //.pipe(browserSync.stream());
+}
+
 function js() {
     return gulp.src(jsSrc)
         .pipe(sourcemaps.init({ loadMaps: true }))
@@ -130,6 +146,8 @@ function js() {
 //exports.vendor = vendor; // vendor files
 exports.css = css; // compile scss to css
 exports.cssMin = cssMin; // minify css
+exports.cssEditor = css; // compile WP Editor scss to css
+exports.cssEditorMin = cssMin; // minify WP Editor css
 exports.js = js; // concat js
 exports.jsMin = jsMin; // minify js
 
@@ -138,5 +156,5 @@ exports.jsMin = jsMin; // minify js
 //     ), watch);
 
 exports.default = gulp.parallel(
-    css, cssMin, js, jsMin
+    css, cssMin, cssEditor, js, jsMin
     );
